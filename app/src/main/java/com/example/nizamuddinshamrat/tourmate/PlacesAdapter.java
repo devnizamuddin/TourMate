@@ -10,7 +10,7 @@ import android.widget.TextView;
 import java.util.List;
 
 /**
- * Created by saran on 1/2/2018.
+ * Created by Nizam Uddin Shamrat on 1/2/2018.
  */
 
 public class PlacesAdapter extends RecyclerView.Adapter<PlacesAdapter.PlacesViewHolder>{

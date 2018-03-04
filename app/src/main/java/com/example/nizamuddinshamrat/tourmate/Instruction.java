@@ -3,7 +3,7 @@ package com.example.nizamuddinshamrat.tourmate;
 import java.io.Serializable;
 
 /**
- * Created by saran on 2/6/2018.
+ * Created by Nizam Uddin Shamrat on 2/6/2018.
  */
 
 public class Instruction implements Serializable {

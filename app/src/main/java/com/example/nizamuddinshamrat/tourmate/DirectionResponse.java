@@ -6,7 +6,7 @@ import com.google.gson.annotations.SerializedName;
 import java.util.List;
 
 /**
- * Created by BITM Trainer 601 on 1/17/2018.
+ * Created by Nizam Uddin Shamrat 601 on 1/17/2018.
  */
 
 public class DirectionResponse {

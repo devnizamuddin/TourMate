@@ -7,7 +7,7 @@ import java.io.Serializable;
 import java.util.List;
 
 /**
- * Created by saran on 12/31/2017.
+ * Created by Nizam Uddin Shamrat on 12/31/2017.
  */
 
 public class WeatherResponse implements Serializable {

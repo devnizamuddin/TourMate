@@ -8,7 +8,7 @@ import android.database.sqlite.SQLiteDatabase;
 import java.util.ArrayList;
 
 /**
- * Created by saran on 1/7/2018.
+ * Created by Nizam Uddin Shamrat on 1/7/2018.
  */
 
 public class CitySource {

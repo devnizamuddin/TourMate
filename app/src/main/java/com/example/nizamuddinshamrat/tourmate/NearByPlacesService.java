@@ -5,7 +5,7 @@ import retrofit2.http.GET;
 import retrofit2.http.Url;
 
 /**
- * Created by BITM Trainer 601 on 1/17/2018.
+ * Created by Nizam Uddin Shamrat on 1/17/2018.
  */
 
 public interface NearByPlacesService {

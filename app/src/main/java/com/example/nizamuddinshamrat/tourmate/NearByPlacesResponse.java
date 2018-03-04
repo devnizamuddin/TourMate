@@ -7,7 +7,7 @@ import java.io.Serializable;
 import java.util.List;
 
 /**
- * Created by saran on 2/8/2018.
+ * Created by Nizam Uddin Shamrat on 2/8/2018.
  */
 
 public class NearByPlacesResponse implements Serializable{

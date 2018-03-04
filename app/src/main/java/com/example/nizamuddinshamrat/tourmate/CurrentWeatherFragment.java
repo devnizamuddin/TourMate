@@ -22,19 +22,9 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 
-/**
- * A simple {@link Fragment} subclass.
- * Activities that contain this fragment must implement the
- * {@link CurrentWeatherFragment.OnFragmentInteractionListener} interface
- * to handle interaction events.
- * Use the {@link CurrentWeatherFragment#newInstance} factory method to
- * create an instance of this fragment.
- */
-public class CurrentWeatherFragment extends Fragment {
-    // TODO: Rename parameter arguments, choose names that match
-    // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
 
-    // TODO: Rename and change types of parameters
+public class CurrentWeatherFragment extends Fragment {
+
     private WeatherResponse weatherResponse;
     private WeatherService weatherService;
     private double lat ;
@@ -54,15 +44,6 @@ public class CurrentWeatherFragment extends Fragment {
         // Required empty public constructor
     }
 
-    /**
-     * Use this factory method to create a new instance of
-     * this fragment using the provided parameters.
-     *
-     * @param param1 Parameter 1.
-
-     * @return A new instance of fragment CurrentWeatherFragment.
-     */
-    // TODO: Rename and change types and number of parameters
     public static CurrentWeatherFragment newInstance(double param1,double param2,String unit,String city) {
         CurrentWeatherFragment fragment = new CurrentWeatherFragment();
         Bundle args = new Bundle();

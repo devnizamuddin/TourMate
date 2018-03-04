@@ -3,7 +3,7 @@ package com.example.nizamuddinshamrat.tourmate.PosoClass;
 import java.io.Serializable;
 
 /**
- * Created by saran on 1/24/2018.
+ * Created by Nizam Uddin Shamrat on 1/24/2018.
  */
 
 public class UserClass implements Serializable {

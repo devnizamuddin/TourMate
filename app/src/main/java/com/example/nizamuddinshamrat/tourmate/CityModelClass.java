@@ -1,7 +1,7 @@
 package com.example.nizamuddinshamrat.tourmate;
 
 /**
- * Created by saran on 1/7/2018.
+ * Created by Nizam Uddin Shamrat on 1/7/2018.
  */
 
 public class CityModelClass {

@@ -30,17 +30,9 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 
-/**
- * A simple {@link Fragment} subclass.
- * Activities that contain this fragment must implement the
- * {@link ForcastWeatherFragment.OnFragmentInteractionListener} interface
- * to handle interaction events.
- * Use the {@link ForcastWeatherFragment#newInstance} factory method to
- * create an instance of this fragment.
- */
+
 public class ForcastWeatherFragment extends Fragment {
-    // TODO: Rename parameter arguments, choose names that match
-    // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
+
     private WeatherForcastResponse weatherForcastResponse;
     private RecyclerView recyclerView;
     private WeatherAdapter adapter;
@@ -56,7 +48,6 @@ public class ForcastWeatherFragment extends Fragment {
     SharedPreferences.Editor editor;
     private String appid="d0b941339d6f075686460c7fe0912041";
     static String f_Or_c;
-    // TODO: Rename and change types of parameters
 
     private OnFragmentInteractionListener mListener;
 
@@ -64,14 +55,7 @@ public class ForcastWeatherFragment extends Fragment {
         // Required empty public constructor
     }
 
-    /**
-     * Use this factory method to create a new instance of
-     * this fragment using the provided parameters.
-     *
-     * @param param1 Parameter 1.
-     * @return A new instance of fragment ForcastWeatherFragment.
-     */
-    // TODO: Rename and change types and number of parameters
+
     public static ForcastWeatherFragment newInstance(double param1, double param2, String unit, int count, String city) {
         ForcastWeatherFragment fragment = new ForcastWeatherFragment();
         Bundle args = new Bundle();

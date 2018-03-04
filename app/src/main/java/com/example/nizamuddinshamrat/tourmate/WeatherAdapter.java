@@ -11,7 +11,7 @@ import android.widget.TextView;
 import com.squareup.picasso.Picasso;
 
 /**
- * Created by saran on 1/2/2018.
+ * Created by Nizam Uddin Shamrat on 1/2/2018.
  */
 
 public class WeatherAdapter extends RecyclerView.Adapter<WeatherAdapter.WeatherViewHolder> {

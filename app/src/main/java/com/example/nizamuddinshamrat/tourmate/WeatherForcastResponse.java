@@ -10,7 +10,7 @@ import java.util.Locale;
 import java.util.TimeZone;
 
 /**
- * Created by saran on 1/2/2018.
+ * Created by Nizam Uddin Shamrat on 1/2/2018.
  */
 
 public class WeatherForcastResponse implements Serializable {
